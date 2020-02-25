@@ -9,7 +9,6 @@ import (
 )
 
 var DB *gorm.DB
-var X = "hi i am there"
 
 func Connect() {
 	DB, err := gorm.Open("mysql", "root@(localhost)/golang_poc")
