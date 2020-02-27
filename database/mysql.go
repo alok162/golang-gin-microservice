@@ -16,7 +16,6 @@ func Connect() {
 		fmt.Println("failed to connect database", err)
 		return
 	}
-	// defer DB.Close()
 	fmt.Println("successfullt db got connected", DB)
 	setUpDbConnection(DB)
 }
